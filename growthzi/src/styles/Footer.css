@@ -1,0 +1,359 @@
+.my-footer {
+  background: #000000;
+  color: #fff;
+  padding: 60px 0 19px;
+}
+.downContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 21px;
+}
+.footerRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 47px;
+  margin-bottom: 37px;
+}
+.ftSection h3,
+.ftSection h4 {
+  color: #d4af37;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0 0 17px 0;
+}
+.ftSection h4 {
+  font-size: 16px;
+}
+.logoSec {
+  flex-direction: column;
+  gap: 27px;
+  display: flex;
+}
+.ft-logoGrp {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logoBall {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.logGold {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #d4af37, #f4e49c);
+  border-radius: 50% 50% 50% 10px;
+  transform: rotate(-45deg);
+}
+.logoLab h3 {
+  color: #d4af37;
+  font-size: 20px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+.logoLab span {
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 3px;
+  display: block;
+  margin-top: -3px;
+}
+.ctBlock {
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+}
+.txtDesc {
+  color: #ccc;
+  line-height: 1.6;
+  font-size: 14px;
+}
+.ctDetGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ctDetSpan {
+  color: #e0e0e0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.ctEditBtn {
+  background: #d4af37;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  align-self: flex-start;
+  transition: background 0.2s;
+}
+.ctEditBtn:hover {
+  background: #b8941f;
+}
+.ctEditMode {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.ctEditTa,
+.ctEditInput {
+  background: rgba(255, 255, 255, 0.11);
+  border: 1px solid #d4af37;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+}
+.ctEditTa {
+  resize: vertical;
+  min-height: 77px;
+}
+.ctEditInput::placeholder,
+.ctEditTa::placeholder {
+  color: #aaa;
+}
+.ftSectHd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.editLinksBtn {
+  background: #d4af37;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.23s;
+}
+.editLinksBtn:hover {
+  background: #b8941f;
+}
+.ftLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+}
+.ftLink {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.23s;
+}
+.ftLink:hover {
+  color: #d4af37;
+}
+.linkEditBlock {
+  flex-direction: column;
+  gap: 13px;
+  display: flex;
+}
+.linkGrp {
+  flex-direction: column;
+  gap: 7px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 5px;
+  padding: 10px;
+}
+.linkInp {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #d4af37;
+  border-radius: 3px;
+  padding: 8px;
+  color: #fff;
+  font-size: 12px;
+  width: 100%;
+}
+.linkInp::placeholder {
+  color: #aaa;
+}
+.subscrArea {
+  flex-direction: column;
+  display: flex;
+}
+.subTxt {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 18px 0;
+}
+.subForm {
+  flex-direction: column;
+  display: flex;
+}
+.emailInpWrap {
+  display: flex;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.13);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.emInp {
+  flex: 1;
+  padding: 12px 15px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+.emInp::placeholder {
+  color: #aaa;
+}
+.sbBtn {
+  background: #d4af37;
+  border: none;
+  padding: 12px 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.sbBtn:hover {
+  background: #b8941f;
+}
+.sbArrow {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.ftBtnsEdit {
+  display: flex;
+  gap: 7px;
+  margin-top: 8px;
+}
+.doneBtn,
+.btnX {
+  padding: 6px 12px;
+  border-radius: 3px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+.doneBtn {
+  background: #23ab68;
+  color: #fff;
+}
+.doneBtn:hover {
+  background: #13843a;
+}
+.btnX {
+  background: #e2464b;
+  color: #fff;
+}
+.btnX:hover {
+  background: #aa2232;
+}
+.ftBottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 27px;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  display: flex;
+}
+.ft-smRow {
+  display: flex;
+  gap: 13px;
+  justify-content: center;
+}
+.smLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #f5f1f1ee;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.smLink:hover {
+  background: #d4af37;
+  border-color: #d4af37;
+  
+}
+.icSm {
+   width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.footerCut {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.cpDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cpTxt {
+  color: #aaa;
+  font-size: 14px;
+  margin: 0;
+}
+.cpLinksArea {
+  display: flex;
+  gap: 20px;
+}
+.cpLnk {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.22s;
+}
+.cpLnk:hover {
+  color: #d4af37;
+}
+/* Responsiveness */
+@media (max-width: 770px) {
+  .footerRow {
+    grid-template-columns: 1fr;
+    gap: 27px;
+  }
+  .ft-logoGrp {
+    justify-content: center;
+  }
+  .ctBlock,
+  .linksArea,
+  .subscrArea {
+    text-align: center;
+  }
+  .ftLinks {
+    align-items: center;
+  }
+  .cpDiv {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ft-smRow {
+    order: -1;
+  }
+}
+@media (max-width: 480px) {
+  .my-footer {
+    padding: 32px 0 16px;
+  }
+  .footerRow {
+    gap: 15px;
+  }
+  .smLink {
+    width: 31px;
+    height: 31px;
+  }
+}

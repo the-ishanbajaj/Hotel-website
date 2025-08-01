@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+.amSecRoot {
+  background: #fff;
+  padding: 82px 0 57px;
+  font-family: 'Forum', serif;
+  color: #232324;
+}
+
+.amHeaderBlock {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.amMinorTitle {
+  color: #bfa76b;
+  font-size: 13.5px;
+  letter-spacing: 2px;
+  margin-bottom: 13px;
+  display: block;
+}
+
+.amHead {
+  font-family: 'Forum', serif;
+  color: #232324;
+  font-size: 41px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  margin-bottom: 7px;
+  margin-top: 0;
+}
+
+.amHeadDivider {
+  width: 35px;
+  height: 3px;
+  background: linear-gradient(86deg, #bfa76b 22%, transparent 100%);
+  margin: 13px auto 21px;
+  border-radius: 2px;
+}
+
+.amLeadTxt {
+  color: #888888;
+  font-size: 17.5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Amenities grid */
+.amGridMain {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 39px 19px;
+  max-width: 1030px;
+  margin: 0 auto;
+}
+
+.amGridCard {
+  background: #fff;
+  border-radius: 13px;
+  box-shadow: 0 2px 15px #ececec;
+  display: flex;
+  align-items: flex-start;
+  padding: 31px 23px 21px 23px;
+  gap: 19px;
+  border: 1px solid #f1f1f1;
+  min-width: 0;
+  transition: box-shadow 0.21s;
+}
+.amGridCard:hover {
+  box-shadow: 0 8px 36px #dddddd;
+}
+
+.amIconCont {
+  background: #f7f7f7;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amIconCont img { width: 31px; height: 31px; }
+
+.amDetBlock { display: flex; flex-direction: column; }
+
+.amTitle {
+  font-size: 18px;
+  font-family: 'Forum', serif;
+  color: #232324;
+  margin-bottom: 8px;
+  font-weight: 420;
+}
+
+.amDesc {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.38;
+}
+
+/* Responsiveness*/
+@media (max-width: 980px) {
+  .amGridMain { grid-template-columns: repeat(2,1fr); }
+}
+@media (max-width: 650px) {
+  .amGridMain { grid-template-columns: 1fr; }
+  .amGridCard { flex-direction: column; align-items: center; text-align: center; }
+  .amIconCont { margin-bottom: 13px; }
+}

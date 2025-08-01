@@ -1,0 +1,117 @@
+.heroSectionMain {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  background: linear-gradient(180deg, black 0%, #352d13 25%, #756223 50%, #352d13 75%, black 100%);
+  font-family: 'Forum', serif;
+}
+
+.heroBgLayer {
+  position: absolute;
+  left: 0; top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background: linear-gradient(180deg, #1a1a1a 0%, #656363 25%, #8b8988 50%, #656363 75%, #000 100%);
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.40);
+  z-index: -1;
+}
+
+.heroInContent {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 18px;
+}
+
+.heroTextFlex {
+  text-align: center;
+  width: 100%;
+}
+
+.titleRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.hero--title {
+  font-family: 'Forum', serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.17;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.32);
+  letter-spacing: 1px;
+}
+
+.editNowBtn {
+  background: #d4af37;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 9px 21px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.23s;
+}
+.editNowBtn:hover { background: #b8941f; }
+
+.editAreaHero {
+  width: 96vw;
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.editHeroInput {
+  font-family: inherit;
+  font-size: 3rem;
+  color: #fff;
+  background: rgba(255,255,255,0.08);
+  border: 2px solid #d4af37;
+  border-radius: 5px;
+  padding: 10px 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.editButtonsBar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 4px;
+}
+.sBtn, .xBtn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.sBtn { background: #1ac145; color: #fff; }
+.sBtn:hover { background: #148f31;}
+.xBtn { background: #e2464b; color: #fff; }
+.xBtn:hover { background: #b81a20; }
+
+
+@media (max-width: 730px) {
+  .hero--title { font-size: 2.55rem; }
+  .editHeroInput { font-size: 1.5rem; }
+}
